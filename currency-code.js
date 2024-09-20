@@ -1,0 +1,21 @@
+currencies = [
+    "THB",
+    "USD",
+    "JPY",
+    "EUR",
+    "GBP",
+    "AUD",
+    "CAD",
+    "CHF",
+    "CNY",
+    "SEK",
+    "NZD",
+    "KRW",
+    "SGD",
+    "NOK",
+    "MXN",
+    "INR",
+    "RUB",
+    "BRL",
+    "ZAR"
+];

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RegisterForm</title>
+<link rel="stylesheet" href="form.css">
+<script src="form.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <h1>Create an account</h1>
+    <form id="loginForm" onsubmit="return validateForm()">
+        <input type="text" id="username" placeholder="Username" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+        <input type="number" id="phoneNumber" placeholder="Phone Number (10 digits)" required>
+        <input type="submit" value="Sign In">
+    </form>
+    <button class="button-exchange">CurrencyExchange</button>
+    <p id="message"></p>
+    
+</div>
+</body>
+</html>
